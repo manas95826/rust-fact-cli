@@ -32,7 +32,7 @@ This project handles sensitive data and external API communications. Please foll
 If you discover a security vulnerability, please report it responsibly:
 
 ### **How to Report**
-1. **Email**: [your-email@example.com] (replace with your actual email)
+1. **Email**: [themanas.in@gmail.com] (replace with your actual email)
 2. **Subject**: "Security Vulnerability in Fact CLI"
 3. **Include**: 
    - Description of the vulnerability
