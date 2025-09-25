@@ -1,0 +1,19 @@
+[package]
+name = "fact-cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["Manas Chopra themanas.in@gmail.com"]
+description = "A CLI tool that prints random coding/AI/scaling facts"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+colored = "2.1"
+rand = "0.8"
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+teloxide = "0.12"
+dotenv = "0.15"
+chrono = { version = "0.4", features = ["serde"] }

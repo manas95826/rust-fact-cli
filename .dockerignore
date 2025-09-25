@@ -1,0 +1,10 @@
+target/
+.git/
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+*.swp
+*.swo
+*~

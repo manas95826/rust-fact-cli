@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: fact-cli-bot
+    env: rust
+    buildCommand: cargo build --release
+    startCommand: ./target/release/fact-cli --telegram --category all
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_CHAT_ID
+        sync: false
