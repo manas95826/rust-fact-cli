@@ -34,7 +34,7 @@ A powerful CLI tool that fetches random coding, AI, and scaling facts from real 
 
 ### Build from Source
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/manas95826/rust-fact-cli.git
 cd fact-cli
 cargo build --release
 ```
